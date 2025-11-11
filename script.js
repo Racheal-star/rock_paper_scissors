@@ -47,11 +47,11 @@ console.log("=== GAME OVER! ===");
   console.log(`FINAL SCORE: Human ${humanScore} | Computer ${computerScore}`);
   
   if (humanScore > computerScore) {
-    console.log("🎉 You are the overall WINNER! 🎉");
+    console.log("You are the overall WINNER!");
   } else if (computerScore > humanScore) {
-    console.log("🤖 The Computer is the overall WINNER! 🤖");
+    console.log(" The Computer is the overall WINNER! ");
   } else {
-    console.log("🤝 The game ends in a TIE! 🤝");
+    console.log(" The game ends in a TIE! ");
   }
 }
 playGame();
