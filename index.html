@@ -6,11 +6,25 @@
     <title>Rock Paper scissors </title>
 </head>
 <body>
-    <div id="btns">
-        <button id="rock" onclick= getHumanChoice() > Rock</button>
-        <button id="paper" onclick= getHumanChoice() >Paper</button>
-        <button id="scissors" onclick= getHumanChoice()>Scissors</button>
+<h1>Rock Paper Scissors</h1>
+    
+    <div id="choices">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
     </div>
+    
+    <p id="display">
+
+    </p>
+    <hr>
+
+    <h2>Score</h2>
+    <div id="score-container">
+        Human: <span id="human-score">0</span> Computer: <span id="computer-score">0</span>
+    </div>
+<p id="winner"></p>
+    
     <script src="script.js">
     </script>
 </body>
